@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-black text-white py-8 px-6">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-        <p className="text-sm">
+        <p className="text-sm cursor-default">
           © 2025 All Rights Reserved by{" "}
           <Link href="/" className="font-semibold hover:underline">
             Allegra Music Inc.

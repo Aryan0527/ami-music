@@ -29,7 +29,7 @@ const Roster = () => {
     },
     {
       id: 4,
-      image: "/fredi.jpg",
+      image: "/fredii.jpg",
       name: "Freddie",
       desc: "Rapper",
       href: "#",
@@ -86,14 +86,14 @@ const Roster = () => {
       <div className="bg-black py-16 px-6 md:px-12 lg:px-24 relative z-10">
         <div className="max-w-7xl mx-auto">
           <div className="mb-12">
-            <h2 className="text-white text-3xl md:text-4xl font-medium mb-2 text-center">
+            <h2 className="text-white text-3xl md:text-4xl font-medium mb-2 text-center cursor-default">
               ROSTER
             </h2>
             <div className="h-0.5 w-28 bg-red-600 mx-auto"></div>
           </div>
 
           {/* Artist Cards Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3.5">
             {artists.map((artist) => (
               <Link
                 key={artist.id}

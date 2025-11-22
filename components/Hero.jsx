@@ -63,7 +63,7 @@ const Hero = () => {
 
         {/* Hero Content */}
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
-          <h1 className="text-white text-5xl md:text-7xl font-bold drop-shadow-2xl mb-6">
+          <h1 className="text-white text-5xl md:text-7xl font-bold drop-shadow-2xl mb-6 cursor-default">
             AMI Music
           </h1>
           <Link
@@ -90,14 +90,14 @@ const Hero = () => {
         <div className="max-w-7xl mx-auto">
           {/* Section Header */}
           <div className="mb-12">
-            <h2 className="text-white text-3xl md:text-4xl text-center font-bold mb-2">
+            <h2 className="text-white text-3xl md:text-4xl text-center font-bold mb-2 cursor-default">
               Releases
             </h2>
             <div className="h-1 w-24 bg-red-600 mx-auto"></div>
           </div>
 
           {/* Albums Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {albums.slice(0, 3).map((album) => (
               <Link
                 key={album.id}
