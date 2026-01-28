@@ -70,10 +70,9 @@ export default function AlbumGrid() {
     },
     {
       id: 7,
-      title: "Shop Class",
-      artist: "Ezlan Quest",
-      image:
-        "https://images.unsplash.com/photo-1485579149621-3123dd979885?w=400",
+      title: "Chiddi UDD",
+      artist: "St. Kevin",
+      image: "/chiddi.jpg",
       genre: "Rock",
       year: "2023",
       language: "English",
@@ -81,10 +80,9 @@ export default function AlbumGrid() {
     },
     {
       id: 8,
-      title: "Andhbhakt",
-      artist: "Dizlaw",
-      image:
-        "https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?w=400",
+      title: "Heisenberg",
+      artist: "Kbir",
+      image: "/heisenberg.jpg",
       genre: "Hip Hop",
       year: "2024",
       language: "Hindi",
