@@ -1,12 +1,15 @@
-import React from "react";
-import Catalog from "@/components/Catalog";
+"use client";
+import React, { useState } from "react";
+import Carousel from "@/components/Carousel";
+import AlbumGrid from "@/components/AlbumGrid";
 
-const catalog = () => {
+const Catalog = () => {
   return (
     <div>
-      <Catalog />
+      <Carousel />
+      <AlbumGrid />
     </div>
   );
 };
 
-export default catalog;
+export default Catalog;
